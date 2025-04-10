@@ -2,7 +2,7 @@ name: Event_Filters
 on:
   push:
     paths:
-      - 'my-dir/*'
+      - 'my-dir/**'
 jobs:
   linux-os:
     runs-on: ubuntu-latest
