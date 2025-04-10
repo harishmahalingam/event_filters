@@ -1,10 +1,8 @@
 name: Event_Filters
 on:
   push:
-    # Sequence of patterns matched against refs/heads
-    tags-ignore:
-      - v1.*
-
+    paths:
+      - 'my-dir'
 jobs:
   linux-os:
     runs-on: ubuntu-latest
