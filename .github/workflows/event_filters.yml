@@ -3,7 +3,7 @@ name: Event_Filters
 on:
   push:
     branches:
-      -'feature/day-04'
+      -feature/day04
 
 jobs:
   linux-os:
