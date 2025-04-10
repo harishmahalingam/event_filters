@@ -3,7 +3,6 @@ on:
  push:
   branches:
     -'feature/*'
-
 jobs:
   linux-os:
     runs-on: ubuntu-latest
