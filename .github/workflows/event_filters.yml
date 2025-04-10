@@ -1,7 +1,7 @@
 name: Event_Filters
 on:
   push:
-    paths:
+    paths-ignore:
       - 'my-dir/**'
 jobs:
   linux-os:
